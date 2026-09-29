@@ -5,13 +5,13 @@
 # Une ligne qui commence par # est un commentaire (jamais affichee).
 # Incremente << version >> a chaque modification.
 
-version: 2
+version: 3
 actif: oui
 
 
 # --- AVERTISSEMENT ---
 == Card_avertissement_long ==
-COUCOU ZOUBIDA LILALOU
+HOP HOP HOP CECI EST UN TEST ONE TWO ONE TWO
 NOUVEL APPAREIL
 DÉTECTÉ
 EN ZONE BLANCHE
