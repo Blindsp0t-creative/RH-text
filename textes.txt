@@ -12,6 +12,9 @@ actif: oui
 # --- AVERTISSEMENT ---
 == Card_avertissement_long ==
 
+hey coucou Greg ca c'est un test pour voir si ca marche mon super systeme de mise a jour ! 
+
+
 NOUVEL APPAREIL
 DÉTECTÉ
 EN ZONE BLANCHE
