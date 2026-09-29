@@ -5,7 +5,7 @@
 # Une ligne qui commence par # est un commentaire (jamais affichee).
 # Incremente << version >> a chaque modification.
 
-version: 1
+version: 2
 actif: oui
 
 
