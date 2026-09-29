@@ -11,7 +11,7 @@ actif: oui
 
 # --- AVERTISSEMENT ---
 == Card_avertissement_long ==
-HOP HOP HOP CECI EST UN TEST ONE TWO ONE TWO
+encore un nouveau texte
 NOUVEL APPAREIL
 DÉTECTÉ
 EN ZONE BLANCHE
