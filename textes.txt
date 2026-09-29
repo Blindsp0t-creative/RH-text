@@ -12,6 +12,11 @@ actif: oui
 # --- AVERTISSEMENT ---
 == Card_avertissement_long ==
 
+******************
+(ceci est un test)
+******************
+
+
 NOUVEL APPAREIL
 DÉTECTÉ
 EN ZONE BLANCHE
