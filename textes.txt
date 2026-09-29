@@ -11,6 +11,7 @@ actif: oui
 
 # --- AVERTISSEMENT ---
 == Card_avertissement_long ==
+COUCOU ZOUBIDA LILALOU
 NOUVEL APPAREIL
 DÉTECTÉ
 EN ZONE BLANCHE
