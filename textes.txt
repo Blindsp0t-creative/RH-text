@@ -11,7 +11,7 @@ actif: oui
 
 # --- AVERTISSEMENT ---
 == Card_avertissement_long ==
-encore un nouveau texte
+
 NOUVEL APPAREIL
 DÉTECTÉ
 EN ZONE BLANCHE
