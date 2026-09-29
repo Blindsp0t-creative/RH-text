@@ -1,1 +1,357 @@
-ceci est mon fichier texte
+# TEXTES DES CARTONS - Rabbit Hole
+#
+# Edite librement le texte sous chaque en-tete << == cle == >>.
+# Les retours a la ligne sont EXACTEMENT ceux qui s'afficheront a l'ecran.
+# Une ligne qui commence par # est un commentaire (jamais affichee).
+# Incremente << version >> a chaque modification.
+
+version: 1
+actif: oui
+
+
+# --- AVERTISSEMENT ---
+== Card_avertissement_long ==
+NOUVEL APPAREIL
+DÉTECTÉ
+EN ZONE BLANCHE
+
+
+↓
+
+
+UTILISATION
+FORMELLEMENT
+INTERDITE
+
+
+↓
+
+
+TOUTE
+    POURSUITE
+DE SCROLLING
+EST À VOS
+RISQUES ET PÉRILS
+
+
+↓
+
+
+# --- BIENVENUE / FLUX ---
+== Card_bienvenue_long ==
+BIENVENUE
+
+DANS
+
+FLUX
+
+
+↓
+
+
+ICI
+
+LE
+
+SCROLL
+
+RÉVÈLE
+
+L’INVISIBLE
+
+
+↓
+
+N’HÉSITE
+
+PAS
+
+À
+
+FAIRE
+
+DÉFILER
+
+VERS
+
+LE
+
+BAS
+
+
+POUR
+
+FAIRE
+
+APPARAITRE
+
+DES
+
+ÉLÉMENTS
+
+
+↓
+
+
+# --- Relance + troll ---
+== Card_relance_long ==
+N'HÉSITES PAS
+À SCROLLER
+POUR AVANCER
+DANS L'EXPÉRIENCE
+
+
+↓
+
+
+EXPLORE
+L'ESPACE
+
+
+↓
+
+
+IL
+    PARAÎT
+QU'UN TROLL
+SE CACHE
+QUELQUE PART
+
+
+↓
+
+
+# --- Distance / profondeur ---
+== Card_distance_long ==
+TU AS DÉJÀ
+PARCOURU {dist}
+AVEC TON POUCE
+
+
+↓
+
+
+TU
+    ES LOIN
+DE LA PROFONDEUR
+DE CETTE FONTAINE
+
+
+↓
+
+
+CONTINUE
+POUR
+    FAIRE
+APPARAÎTRE LE FLUX
+
+
+↓
+
+
+# --- Nourrir le nuage ---
+== Card_nourrir_long ==
+MAINTENANT QUE
+TU AS FAIT
+APPARAÎTRE CE NUAGE
+TU PEUX LE NOURRIR
+
+
+↓
+
+
+SI
+    TU DEVAIS
+LÀ MAINTENANT
+ENVOYER UN MESSAGE
+À UNE PERSONNE
+QUE TU NE
+    CONNAIS PAS
+TU DIRAIS QUOI ?
+
+
+↓
+
+
+# --- Zettaoctets ---
+== Card_zetta_long ==
+LE TRAFIC
+INTERNET MONDIAL
+SE MESURE
+EN ZETTAOCTETS
+
+
+↓
+
+
+DES
+    MILLIERS
+DE MILLIARDS
+DE GIGAOCTETS
+
+
+↓
+
+
+1 ZETTAOCTET =
+1 
+0
+0
+0
+0
+0
+0
+0
+0
+0
+    
+0
+0
+0
+0
+0
+0 
+0
+0
+0
+0
+0
+0
+0
+0
+0
+OCTETS
+
+
+↓
+
+
+L'ENSEMBLE
+DES
+    DONNÉES CRÉÉES,
+COPIÉES ET CONSOMMÉES
+DANS LE MONDE EN UN AN
+    :
+150 ZO
+
+
+↓
+
+
+SOIT L'ÉQUIVALENT
+DE 50 000 MILLIARDS
+DE FILMS
+    EN HD
+
+
+↓
+
+
+IL FAUDRAIT
+PLUSIEURS MILLIONS
+D'ANNÉES
+POUR EN
+    VOIR LE BOUT
+
+
+↓
+
+
+# --- Finale - au-dela ---
+== Card_finale_long ==
+TU VIENS
+DE PARCOURIR {dist}
+AVEC TON POUCE
+
+
+↓
+
+
+C'EST LA
+    PROFONDEUR
+ESTIMÉE
+DE CETTE FONTAINE
+
+
+↓
+
+
+ON N'EST
+PAS SÛR…
+
+
+↓
+
+
+PARDON.
+180
+    M C'EST
+LA DISTANCE
+MOYENNE MONDIALE
+
+
+↓
+
+
+TU ES DÉSORMAIS
+AU-DELÀ
+
+
+↓
+
+
+AU-DELÀ
+DE
+    LA LONGUEUR
+DE DEUX STADES
+DE FOOT
+
+
+↓
+
+
+AU-DELÀ
+D'UN IMMEUBLE
+DE
+    55 ÉTAGES
+
+
+↓
+
+
+AU-DELÀ
+DE LA DISTANCE
+PARCOURUE EN 2 MIN
+DE
+    MARCHE
+
+
+↓
+
+
+AU-DELÀ
+DE 18 BALEINES BLEUES
+MISES BOUT À BOUT
+
+
+↓
+
+
+D'AILLEURS
+TU
+    VIENS DE RAJOUTER
+TA TAILLE
+À CETTE HAUTEUR
+
+
+↓
+
+
+IL EST DÉSORMAIS
+TEMPS
+    DE DÉSACTIVER
+INTÉGRALEMENT
+TON APPAREIL
+
+
+↓
