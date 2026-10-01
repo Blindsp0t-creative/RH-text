@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FLUX — Compagnie INVIVO</title>
+<meta name="description" content="FLUX, une expérience Android qui prolonge le spectacle Rabbit Hole. Compagnie INVIVO.">
+<meta property="og:title" content="FLUX">
+<meta property="og:description" content="Une expérience Android qui prolonge le spectacle Rabbit Hole. Compagnie INVIVO.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#120E22">
+
+<!-- ============================================================
+     À REMPLIR :
+     1. href du bouton ci-dessous  -> cherche  LIEN_APK_ICI
+     2. taille / version du fichier -> cherche  META_FICHIER
+     3. visuel de couverture        -> dépose cover.jpg à côté de ce fichier
+     ============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink:        #120E22;
+    --ink-raised: #1E1738;
+    --line:       #332A54;
+    --text:       #EDE9F5;
+    --muted:      #9A91B8;
+    --signal:     #F2B544;
+    --signal-ink: #1A1203;
+    --measure:    34rem;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--ink);
+    background-image: radial-gradient(120% 70% at 50% -10%, #2A1F52 0%, var(--ink) 62%);
+    background-repeat: no-repeat;
+    color: var(--text);
+    font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(2.5rem, 9vw, 6rem) 1.5rem 3rem;
+  }
+
+  main { width: 100%; max-width: var(--measure); }
+
+  a { color: var(--signal); }
+
+  :focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* --- Titre ------------------------------------------------ */
+
+  .wordmark {
+    font-family: "Syne", sans-serif;
+    font-weight: 800;
+    font-size: clamp(4.5rem, 24vw, 10rem);
+    line-height: 0.9;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wordmark span {
+    display: block;
+    animation: settle 1100ms cubic-bezier(.19, 1, .22, 1) both;
+  }
+  .wordmark span:nth-child(2) { animation-delay: 70ms; }
+  .wordmark span:nth-child(3) { animation-delay: 140ms; }
+  .wordmark span:nth-child(4) { animation-delay: 210ms; }
+
+  @keyframes settle {
+    from { opacity: 0; transform: translateY(0.18em); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  .tagline {
+    margin: 1.5rem 0 0;
+    font-size: 1.125rem;
+    max-width: 28ch;
+  }
+
+  .company {
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  /* --- Visuel ----------------------------------------------- */
+
+  .cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+    border: 1px solid var(--line);
+  }
+
+  /* --- Téléchargement --------------------------------------- */
+
+  .get {
+    margin-top: 2.75rem;
+    padding-top: 2.25rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .button {
+    display: inline-block;
+    background: var(--signal);
+    color: var(--signal-ink);
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    font-size: 1.0625rem;
+    text-decoration: none;
+    padding: 0.95rem 2rem;
+    transition: transform 120ms ease, background-color 120ms ease;
+  }
+  .button:hover { background: #FFC75E; }
+  .button:active { transform: translateY(1px); }
+
+  .filemeta {
+    margin: 0.9rem 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  /* --- Installation ----------------------------------------- */
+
+  .install {
+    margin-top: 3rem;
+    padding-top: 2.25rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .install h2 {
+    font-family: "Syne", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0 0 1.25rem;
+  }
+
+  .install ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: step;
+  }
+
+  .install li {
+    counter-increment: step;
+    position: relative;
+    padding-left: 2.25rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .install li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+
+  .note {
+    margin: 1.75rem 0 0;
+    padding: 1rem 1.25rem;
+    background: var(--ink-raised);
+    border-left: 2px solid var(--signal);
+    font-size: 0.95rem;
+  }
+  .note p { margin: 0; }
+
+  /* --- Pied de page ----------------------------------------- */
+
+  footer {
+    width: 100%;
+    max-width: var(--measure);
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+  footer a { color: var(--muted); }
+  footer a:hover { color: var(--text); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .wordmark span { animation: none; }
+    * { transition-duration: 1ms !important; }
+  }
+</style>
+</head>
+
+<body>
+<main>
+
+  <h1 class="wordmark" aria-label="FLUX">
+    <span aria-hidden="true">F</span><span aria-hidden="true">L</span><span aria-hidden="true">U</span><span aria-hidden="true">X</span>
+  </h1>
+
+  <p class="tagline">Une expérience Android qui prolonge le spectacle <em>Rabbit Hole</em>.</p>
+  <p class="company">Compagnie INVIVO</p>
+
+  <!-- Dépose un fichier cover.jpg à côté de index.html, sinon ce bloc disparaît tout seul -->
+  <img class="cover" src="cover.jpg" alt="" onerror="this.remove()">
+
+  <section class="get">
+    <!-- LIEN_APK_ICI : remplace le # par ton lien direct Gofile -->
+    <a class="button" href="#" download>Télécharger FLUX</a>
+    <!-- META_FICHIER -->
+    <p class="filemeta">FLUX.apk · 74 Mo · Android 8 ou plus récent</p>
+  </section>
+
+  <section class="install">
+    <h2>Installation</h2>
+    <ol>
+      <li>Téléchargez le fichier depuis votre téléphone Android, puis ouvrez-le dans vos téléchargements.</li>
+      <li>Android vous demande si vous acceptez d'installer une application provenant d'une source inconnue. Validez pour continuer.</li>
+      <li>Lancez FLUX depuis votre écran d'accueil.</li>
+    </ol>
+
+    <div class="note">
+      <p>Si un message signale une « application non vérifiée », choisissez <strong>Installer quand même</strong>. FLUX est distribué en dehors du Play Store, Android ne peut donc pas la reconnaître.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Compagnie INVIVO · 2026 · <a href="https://blindsp0t.itch.io/flux">Également sur itch.io</a>
+</footer>
+
+</body>
+</html>
