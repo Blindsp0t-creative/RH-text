@@ -201,6 +201,16 @@
 
   .install li p { margin: 0; }
 
+  .install li.final {
+    counter-increment: none;
+    grid-template-columns: 1fr;
+    background: var(--yellow);
+    text-align: center;
+    font-weight: 500;
+    border-bottom: none;
+  }
+  .install li.final::before { content: none; }
+
   .warning {
     margin-top: 1.75rem;
     padding: 1.1rem 1.25rem;
@@ -256,7 +266,8 @@
     <ol>
       <li><p>Téléchargez le fichier depuis votre téléphone Android, puis ouvrez-le dans vos téléchargements.</p></li>
       <li><p>Android vous demande si vous acceptez d'installer une application provenant d'une source inconnue. Validez pour continuer.</p></li>
-      <li><p>Lancez FLUX depuis votre écran d'accueil.</p></li>
+      <li><p>Votre téléphone vous demandera probablement d'installer <strong>Google Play Services for AR</strong> depuis le Play Store. Acceptez : FLUX en a besoin pour fonctionner.</p></li>
+      <li class="final"><p>Lancez FLUX depuis votre écran d'accueil.</p></li>
     </ol>
 
     <div class="warning">
